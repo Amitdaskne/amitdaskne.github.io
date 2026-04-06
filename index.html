@@ -18,7 +18,6 @@
         body {
             margin: 0;
             font-family: 'Inter', sans-serif;
-            /* Using your GitHub image as background */
             background: url('https://raw.githubusercontent.com/Amitdaskne/amitdaskne.github.io/d62c49c42ac1e5866b7e40fbb95de714963d685b/IMG_20260407_023621.png') no-repeat center center fixed;
             background-size: cover;
             min-height: 100vh;
@@ -81,93 +80,54 @@
         }
 
         .profile-img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid white;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            margin-bottom: 15px;
+            width: 100px; height: 100px; border-radius: 50%;
+            object-fit: cover; border: 3px solid white;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2); margin-bottom: 15px;
         }
 
         .section-title {
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--accent);
-            font-weight: 800;
-            margin-bottom: 15px;
-            display: block;
-            border-bottom: 1px solid rgba(0,0,0,0.1);
-            padding-bottom: 5px;
+            font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;
+            color: var(--accent); font-weight: 800; margin-bottom: 15px;
+            display: block; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 5px;
         }
 
         .skill-tag {
-            display: inline-block;
-            background: white;
-            padding: 5px 12px;
-            border-radius: 8px;
-            font-size: 12px;
-            font-weight: 600;
-            border: 1px solid #ddd;
-            margin: 0 5px 8px 0;
+            display: inline-block; background: white; padding: 5px 12px;
+            border-radius: 8px; font-size: 12px; font-weight: 600;
+            border: 1px solid #ddd; margin: 0 5px 8px 0;
         }
 
         .skill-item {
-            margin-bottom: 10px;
-            line-height: 1.5;
-            display: flex;
-            gap: 10px;
-            font-size: 0.95rem;
+            margin-bottom: 10px; line-height: 1.5; display: flex;
+            gap: 10px; font-size: 0.95rem;
         }
         .skill-item::before { content: "•"; color: var(--accent); font-weight: bold; }
 
         .btn-action {
-            background: var(--gradient);
-            color: white;
-            border: none;
-            padding: 14px;
-            border-radius: 14px;
-            font-weight: 700;
-            width: 100%;
-            cursor: pointer;
-            margin-top: 10px;
-            font-size: 14px;
+            background: var(--gradient); color: white; border: none;
+            padding: 14px; border-radius: 14px; font-weight: 700;
+            width: 100%; cursor: pointer; margin-top: 10px; font-size: 14px;
         }
 
         .contact-list { list-style: none; padding: 0; margin: 15px 0; }
         .contact-list li {
-            padding: 12px;
-            background: rgba(255,255,255,0.4);
-            border-radius: 12px;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
+            padding: 12px; background: rgba(255,255,255,0.4);
+            border-radius: 12px; margin-bottom: 10px; display: flex;
+            align-items: center; gap: 10px;
         }
         .contact-list a { text-decoration: none; color: #1d1d1f; font-weight: 600; font-size: 0.9rem; }
 
         .modal-overlay {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.4);
-            backdrop-filter: blur(8px);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-            padding: 20px;
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.4); backdrop-filter: blur(8px);
+            display: none; justify-content: center; align-items: center;
+            z-index: 1000; padding: 20px;
         }
         .modal-content {
-            background: white;
-            padding: 30px;
-            border-radius: 24px;
-            max-width: 500px;
-            width: 100%;
-            position: relative;
+            background: white; padding: 30px; border-radius: 24px;
+            max-width: 500px; width: 100%; position: relative;
             animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            max-height: 80vh;
-            overflow-y: auto;
+            max-height: 80vh; overflow-y: auto;
         }
         .close-btn { position: absolute; top: 15px; right: 15px; background: #eee; border: none; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
 
@@ -210,36 +170,70 @@
 
             <div class="card">
                 <span class="section-title">Core Competencies</span>
-                <div class="skill-item">Strong proficiency in HTML with the ability to build website structures</div>
+                <div class="skill-item">Strong proficiency in HTML with the ability to build complete website structures</div>
                 <div class="skill-item">Skilled in modern CSS design including dark mode, hover effects, and responsive layouts</div>
-                <div class="skill-item">Good understanding of JavaScript for interactive functionality</div>
+                <div class="skill-item">Good understanding of JavaScript for adding interactive functionality</div>
                 <div class="skill-item">Experience working with Firebase (Authentication and Realtime Database)</div>
                 <div class="skill-item">Ability to develop full CRUD systems (Create, Read, Update, Delete)</div>
                 <div class="skill-item">Capable of building real-world projects like CRM systems and business tools</div>
-                <div class="skill-item">Expertise in designing UI inspired by Flipkart and Zomato</div>
+                <div class="skill-item">Expertise in designing UI inspired by platforms like Flipkart and Zomato</div>
                 <div class="skill-item">Problem-solving approach through practical debugging and testing</div>
                 <div class="skill-item">Experience in deploying projects using platforms like GitHub and Render</div>
                 <div class="skill-item">Ability to replicate modern UI/UX designs effectively</div>
             </div>
 
             <div class="card">
+                <span class="section-title">Growth & Architecture</span>
+                <div class="skill-item">Working towards advanced JavaScript concepts (async/await, promises)</div>
+                <div class="skill-item">Improving code structure by adopting modular development practices</div>
+                <div class="skill-item">Learning secure handling of API keys and authentication systems</div>
+                <div class="skill-item">Exploring backend development using Node.js</div>
+                <div class="skill-item">Enhancing error handling and debugging techniques</div>
+                <div class="skill-item">Expanding knowledge of Git and version control systems</div>
+                <div class="skill-item">Optimizing database structure and data handling</div>
+                <div class="skill-item">Focusing on performance improvements in web applications</div>
+                <div class="skill-item">Improving use of developer tools for debugging</div>
+                <div class="skill-item">Practicing clean and maintainable code standards</div>
+            </div>
+
+            <div class="card">
                 <span class="section-title">Project Milestones</span>
-                <p style="font-weight: 600; margin-bottom: 10px;">PharmaSync Pro & Key Projects</p>
                 <div class="skill-item">Developed a functional CRM system for real-world use</div>
                 <div class="skill-item">Built a barcode generator with practical implementation</div>
                 <div class="skill-item">Created a multi-user forum system</div>
                 <div class="skill-item">Working on a custom payment system (AMITCASH)</div>
                 <div class="skill-item">Designed complex UI systems like restaurant listing platforms</div>
+                <div class="skill-item">Started Android app development and APK building</div>
                 <div class="skill-item">Strong hands-on experience with Firebase integration</div>
+                <div class="skill-item">Implemented PDF generation features in projects</div>
                 <div class="skill-item">Built Excel import functionality for data handling</div>
                 <div class="skill-item">Understanding of admin panel and role-based systems</div>
             </div>
 
             <div class="card">
+                <span class="section-title">Advanced Backend & Frontend</span>
+                <div class="skill-item">Currently learning advanced JavaScript concepts</div>
+                <div class="skill-item">Exploring backend development with Node.js and Express</div>
+                <div class="skill-item">Learning REST API development (GET, POST, PUT, DELETE)</div>
+                <div class="skill-item">Understanding authentication systems like JWT</div>
+                <div class="skill-item">Working with cloud storage solutions like Cloudinary</div>
+                <div class="skill-item">Improving Firebase security rules implementation</div>
+                <div class="skill-item">Exploring frontend frameworks like React</div>
+                <div class="skill-item">Learning data flow and state management concepts</div>
+                <div class="skill-item">Adopting multi-file and scalable project structures</div>
+                <div class="skill-item">Implementing proper error logging systems</div>
+            </div>
+
+            <div class="card">
                 <span class="section-title">Professional Mindset</span>
                 <div class="skill-item">Practical developer with a focus on real-world applications</div>
+                <div class="skill-item">Fast learner with hands-on experimentation approach</div>
                 <div class="skill-item">Comfortable building complex and scalable projects</div>
                 <div class="skill-item">Strong balance between UI design and functionality</div>
+                <div class="skill-item">Business-oriented development mindset</div>
+                <div class="skill-item">Capable of converting ideas into real products</div>
+                <div class="skill-item">Near production-level development skills</div>
+                <div class="skill-item">Focused on strengthening backend and architecture</div>
                 <div class="skill-item">On the path to becoming a full-stack developer</div>
                 <div class="skill-item">Committed to continuous improvement and growth 🚀</div>
             </div>
@@ -278,12 +272,56 @@
 
 <script>
     const articles = [
-        { h: "CRM System: Managing Customer Data Efficiently", s: "A system designed to store, edit, and track customer records with ease.", l: "This CRM system allows storing customer details, editing records, and tracking orders. It uses Firebase for real-time updates." },
-        { h: "Barcode Generator: Smart Labeling System", s: "A tool to generate scannable barcodes with product details.", l: "This system creates high-quality barcodes linked with product data. It supports PDF export." },
-        { h: "Firebase Forum: Real-Time Communication Platform", s: "A forum system where users can post, like, and comment.", l: "Built using Firebase, this forum enables users to interact in real-time." },
-        { h: "AMITCASH: Custom Payment Gateway", s: "A virtual currency system with balance and transactions.", l: "AMITCASH allows users to send and receive digital currency using QR codes." },
-        { h: "Excel-Based Data Import Tool", s: "Upload and process bulk data using Excel files.", l: "This feature allows users to upload Excel sheets and automatically process entries into the system." }
-        // ... baki ke articles yahan list hote rahenge
+        { h: "CRM System: Managing Customer Data Efficiently", s: "A system designed to store, edit, and track customer records with ease.", l: "This CRM system allows storing customer details, editing records, and tracking orders. It uses Firebase for real-time updates and ensures smooth business operations." },
+        { h: "Barcode Generator: Smart Labeling System", s: "A tool to generate scannable barcodes with product details.", l: "This system creates high-quality barcodes linked with product data. It supports PDF export and helps in fast billing and inventory tracking." },
+        { h: "Firebase Forum: Real-Time Communication Platform", s: "A forum system where users can post, like, and comment.", l: "Built using Firebase, this forum enables users to interact in real-time. It includes authentication, post management, and persistent comments." },
+        { h: "AMITCASH: Custom Payment Gateway", s: "A virtual currency system with balance and transactions.", l: "AMITCASH allows users to send and receive digital currency using QR codes. It includes transaction history and real-time balance updates." },
+        { h: "Restaurant Listing Platform", s: "A Zomato-style UI for browsing restaurants.", l: "This project showcases restaurants with modern UI design, filtering, and listing features without ordering functionality." },
+        { h: "Blog Popup System", s: "A clean modal-based blog reading experience.", l: "Clicking on a blog opens a smooth popup with detailed content. It enhances user experience with blur background and focus view." },
+        { h: "Excel-Based Data Import Tool", s: "Upload and process bulk data using Excel files.", l: "This feature allows users to upload Excel sheets and automatically process entries into the system, reducing manual work." },
+        { h: "PDF Generator Integration", s: "Convert dynamic data into downloadable PDF files.", l: "This system generates formatted PDFs for invoices, barcodes, and reports, making it useful for business documentation." },
+        { h: "Firebase Authentication System", s: "Secure login and registration using Firebase.", l: "Users can sign up and log in securely with Firebase Authentication, including email verification and session management." },
+        { h: "Admin Panel Management", s: "A control panel for managing users and data.", l: "The admin panel allows viewing, editing, and controlling system data with restricted access for administrators only." },
+        { h: "Dark Mode UI Implementation", s: "A modern dark theme for better user experience.", l: "This feature allows users to switch between light and dark themes, improving usability in different lighting conditions." },
+        { h: "Responsive Design System", s: "Mobile-friendly layout for all screen sizes.", l: "The design adapts to different devices, ensuring a smooth experience on mobile, tablet, and desktop." },
+        { h: "Order Tracking System", s: "Track order status from pending to completed.", l: "This system helps manage orders by categorizing them into pending and confirmed, improving workflow." },
+        { h: "QR Code Payment Integration", s: "Send and receive payments via QR scanning.", l: "Users can generate QR codes for receiving payments and scan codes to send money instantly." },
+        { h: "Multi-User Role System", s: "Different access levels for users and admins.", l: "The system defines roles and permissions, ensuring data security and proper access control." },
+        { h: "Cloud Data Storage with Firebase", s: "Store and sync data in real-time.", l: "Firebase Realtime Database ensures instant updates across devices, making data handling efficient." },
+        { h: "GitHub API Integration", s: "Using GitHub as a cloud storage backend.", l: "Data is stored in GitHub repositories using API, making it lightweight and accessible." },
+        { h: "Inventory Management Tool", s: "Track stock and product details easily.", l: "This system manages inventory with add, update, and delete features, helping businesses stay organized." },
+        { h: "UI Animation Effects", s: "Smooth animations for better interaction.", l: "Hover effects, transitions, and animations make the interface visually appealing and interactive." },
+        { h: "Search System with Expandable Results", s: "Smart search with expandable content view.", l: "Users can search data and expand results to view detailed descriptions dynamically." },
+        { h: "OTP-Free Login System", s: "Simple email-based authentication flow.", l: "Users can register and log in quickly without complex OTP systems while maintaining security." },
+        { h: "Data Editing with Security Check", s: "Passcode-protected edit and delete options.", l: "Sensitive actions require a passcode, preventing unauthorized modifications." },
+        { h: "Stylish Button UI System", s: "Modern gradient buttons with hover effects.", l: "Buttons are designed with gradients and animations to enhance visual appeal." },
+        { h: "Modal Popup UI", s: "Focus-based content display system.", l: "Important information is shown in modals with background blur for better attention." },
+        { h: "Real-Time Data Sync", s: "Instant updates without page reload.", l: "Firebase ensures that all users see updated data instantly across devices." },
+        { h: "Lightweight Web App Design", s: "Fast loading and optimized structure.", l: "Projects are designed to load quickly with minimal resources." },
+        { h: "Business-Oriented Web Tools", s: "Practical applications for real use.", l: "Tools like CRM and barcode systems are built for actual business operations." },
+        { h: "Multi-File Project Structure", s: "Organized code for scalability.", l: "Code is divided into HTML, CSS, and JS files for better maintainability." },
+        { h: "API-Based Data Handling", s: "Fetch and send data using APIs.", l: "Applications interact with APIs for dynamic data exchange." },
+        { h: "Form Validation System", s: "Prevent invalid data submission.", l: "Input validation ensures users enter correct and usable data." },
+        { h: "Clean UI Design Philosophy", s: "Minimal and user-friendly interface.", l: "Focus on simplicity and usability while maintaining a modern look." },
+        { h: "Data Export System", s: "Download data in usable formats.", l: "Users can export records in PDF or Excel formats for offline use." },
+        { h: "Error Handling Improvement", s: "Better debugging and stability.", l: "Implementing proper error handling to avoid crashes and bugs." },
+        { h: "Backend Learning Journey", s: "Moving towards Node.js development.", l: "Expanding skills to include backend logic and server-side processing." },
+        { h: "Full Stack Development Path", s: "Combining frontend and backend skills.", l: "Building complete applications with both UI and server-side logic." },
+        { h: "Secure Data Handling", s: "Protecting sensitive information.", l: "Implementing security practices for safe data storage and transfer." },
+        { h: "Performance Optimization", s: "Faster and smoother applications.", l: "Reducing load time and improving responsiveness." },
+        { h: "Custom Tool Development", s: "Building tools for specific needs.", l: "Creating solutions tailored to business requirements." },
+        { h: "User Experience Enhancement", s: "Making apps intuitive and easy to use.", l: "Focus on improving usability and interaction." },
+        { h: "Code Maintainability", s: "Writing clean and structured code.", l: "Ensuring code is easy to read and update." },
+        { h: "Scalable Web Architecture", s: "Designing apps for future growth.", l: "Building systems that can handle more users and data over time." },
+        { h: "Advanced UI Components", s: "Reusable UI elements.", l: "Creating components that can be reused across projects." },
+        { h: "Real-World Problem Solving", s: "Coding with practical mindset.", l: "Building solutions that solve actual business problems." },
+        { h: "Rapid Development Approach", s: "Fast prototyping and testing.", l: "Quickly building and improving applications through iteration." },
+        { h: "Cloud-Based Systems", s: "Using online services for storage and processing.", l: "Leveraging cloud platforms like Firebase and GitHub." },
+        { h: "Interactive Web Elements", s: "Dynamic and engaging UI features.", l: "Adding animations and interactions to improve engagement." },
+        { h: "Data-Driven Applications", s: "Applications based on real data.", l: "Managing and displaying structured data efficiently." },
+        { h: "Continuous Learning Mindset", s: "Always improving coding skills.", l: "Adapting to new technologies and practices." },
+        { h: "Product-Oriented Development", s: "Building usable digital products.", l: "Focus on creating applications that people can actually use." },
+        { h: "Journey Towards Professional Development", s: "Growing into a full-stack developer.", l: "Continuously improving skills to reach professional-level development." }
     ];
 
     function renderBlog() {
@@ -295,7 +333,7 @@
                 <span class="section-title">Article</span>
                 <h3>${art.h}</h3>
                 <p>${art.s}</p>
-                <button class="btn-action" onclick="openBlog('${art.h}', '${art.l}')">Read More</button>
+                <button class="btn-action" onclick="openBlog('${art.h.replace(/'/g, "\\'")}', '${art.l.replace(/'/g, "\\'")}')">Read More</button>
             `;
             container.appendChild(card);
         });
@@ -323,6 +361,5 @@
 
     renderBlog();
 </script>
-
 </body>
 </html>
